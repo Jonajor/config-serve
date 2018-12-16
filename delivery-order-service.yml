@@ -15,7 +15,6 @@ eureka:
 
 spring:
     datasource:
-        driver-class-name: com.mysql.jdbc.Driver
         password: Jon@16811
         platform: mysql
         url: jdbc:mysql://localhost:3306/delivery-order?verifyServerCertificate=false&useSSL=false&requireSSL=false
