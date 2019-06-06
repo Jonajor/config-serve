@@ -1,0 +1,7 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: pinterest
+      contact-points: localhost
+      port: 9042
+      schema-action: create-if-not-exists
