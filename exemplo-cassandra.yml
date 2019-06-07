@@ -1,3 +1,4 @@
+
 eureka:
   instance:
     hostname: localhost
@@ -10,21 +11,9 @@ eureka:
     wait-time-in-ms-when-sync-empty: 3000
 
 spring:
-  boot:
-    admin:
-      client:
-          url: http://localhost:8080
   data:
     cassandra:
       keyspace-name: pinterest
       contact-points: localhost
       port: 9042
-      schema-action: create-if-not-exists
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: always
+schema-action: create-if-not-exists
