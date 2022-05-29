@@ -11,3 +11,7 @@ eureka:
       defaultZone: https://${eureka.instance.hostname}/eureka/
   server:
     wait-time-in-ms-when-sync-empty: 3000
+
+spring:
+  config:
+    import: "optional:configserver:"
