@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka-server-letscode.herokuapp.com
   client:
     registerWithEureka: true
     fetchRegistry: false
